@@ -3,7 +3,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 main {
@@ -15,9 +14,14 @@ main {
   margin-bottom: 7rem;
 }
 
+.name {
+  font-size: 1.5rem !important;
+}
+
 .logo {
   font-size: 1rem !important;
   font-weight: 100;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .notebook-1 {
@@ -38,7 +42,6 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1rem;
     font-weight: 600;
     color: white;
     display: flex;
@@ -46,6 +49,7 @@ main {
     gap: 0.1rem;
     text-align: center;
     width: 100%;
+    font-size: 1rem !important;
   }
 
   .logo {
@@ -67,9 +71,9 @@ main {
   border-radius: 6px;
   background: radial-gradient(
     circle,
-    rgb(67, 2, 60) 0%,
-    rgb(145, 23, 116) 30%,
-    rgb(237, 83, 193) 100%
+    rgb(113, 0, 81) 0%,
+    rgb(158, 0, 121) 30%,
+    rgb(243, 132, 211) 100%
   );
 
   .name {
@@ -107,8 +111,9 @@ main {
   background: radial-gradient(
     circle,
     rgb(0, 85, 10) 0%,
-    rgb(44, 157, 27) 30%,
-    rgb(115, 233, 115) 100%
+    rgb(34, 255, 0) 30%,
+    rgb(5, 220, 105) 60%,
+    rgb(0, 174, 227) 100%
   );
 
   .name {
@@ -134,5 +139,120 @@ main {
     font-size: 1.25rem;
     font-weight: 300;
     color: white;
+  }
+}
+
+.notebook-4 {
+  height: 600px;
+  width: 400px;
+  position: relative;
+  box-shadow: -10px 15px 5px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background: radial-gradient(
+    circle,
+    rgb(147, 0, 122) 0%,
+    rgb(3, 158, 197) 30%,
+    rgb(239, 124, 212) 60%,
+    rgb(3, 97, 197) 100%
+  );
+
+  .name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .logo {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: white;
+  }
+}
+
+.notebook-5 {
+  height: 600px;
+  width: 400px;
+  position: relative;
+  box-shadow: -10px 15px 5px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background: radial-gradient(
+    circle,
+    rgb(147, 49, 0) 0%,
+    rgb(197, 87, 3) 30%,
+    rgb(239, 191, 124) 100%
+  );
+
+  .name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .logo {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: white;
+  }
+}
+
+.notebook-6 {
+  height: 600px;
+  width: 400px;
+  position: relative;
+  box-shadow: -10px 15px 5px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background: radial-gradient(
+    circle,
+    rgb(147, 135, 0) 0%,
+    rgb(49, 169, 1) 30%,
+    rgb(234, 232, 97) 100%
+  );
+
+  .name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .logo {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff;
   }
 }
