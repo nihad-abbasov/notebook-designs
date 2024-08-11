@@ -34,8 +34,12 @@ main {
 
 @media (max-width: 700px) {
   main {
-    width: 90%;
+    width: 80%;
     margin-inline: auto;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    gap: 4rem;
   }
 }
 
