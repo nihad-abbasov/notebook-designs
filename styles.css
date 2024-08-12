@@ -257,6 +257,238 @@ main {
   }
 }
 
+.notebook-7 {
+  height: 600px;
+  width: 400px;
+  position: relative;
+  box-shadow: -10px 15px 5px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background: radial-gradient(
+    circle,
+    rgb(0, 156, 191) 0%,
+    rgb(0, 101, 225) 40%,
+    rgb(26, 0, 225) 100%
+  );
+
+  .name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .logo {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff;
+  }
+}
+
+.notebook-8 {
+  height: 600px;
+  width: 400px;
+  position: relative;
+  box-shadow: -10px 15px 5px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background: radial-gradient(
+    circle,
+    rgb(1, 157, 219) 0%,
+    rgb(1, 117, 219) 50%,
+    rgb(1, 52, 219) 100%
+  );
+
+  .name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .logo {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff;
+  }
+}
+
+.notebook-9 {
+  height: 600px;
+  width: 400px;
+  position: relative;
+  box-shadow: -10px 15px 5px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background: radial-gradient(
+    circle,
+    rgb(246, 0, 143) 0%,
+    rgb(255, 24, 159) 15%,
+    rgb(248, 74, 176) 30%,
+    rgb(251, 114, 194) 45%,
+    rgb(247, 151, 207) 60%,
+    rgb(255, 192, 229) 75%,
+    rgb(255, 215, 238) 85%,
+    rgb(255, 233, 245) 100%
+  );
+
+  .name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .logo {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff;
+  }
+}
+
+.notebook-10 {
+  height: 600px;
+  width: 400px;
+  position: relative;
+  box-shadow: -10px 15px 5px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background: radial-gradient(
+    circle,
+    rgb(246, 0, 143) 0%,
+    rgb(255, 233, 245) 100%
+  );
+
+  .name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .logo {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff;
+  }
+}
+
+.notebook-11 {
+  height: 600px;
+  width: 400px;
+  position: relative;
+  box-shadow: -10px 15px 5px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background: radial-gradient(
+    circle,
+    rgb(245, 127, 192) 0%,
+    rgb(242, 34, 148) 50%,
+    rgb(246, 0, 143) 100%
+  );
+
+  .name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .logo {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff;
+  }
+}
+
+.notebook-12 {
+  height: 600px;
+  width: 400px;
+  position: relative;
+  box-shadow: -10px 15px 5px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background: radial-gradient(
+    circle,
+    rgb(246, 0, 143) 0%,
+    rgb(242, 34, 148) 30%,
+    rgb(243, 148, 200) 100%
+  );
+
+  .name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .logo {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff;
+  }
+}
+
 @media (min-width: 0px) {
   main {
     grid-template-columns: repeat(1, 1fr);
